@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌙 SunLe – Just Say It!.
 
-First, run the development server:
+**SunLe** is a 24x7 personal companion app designed for emotionally safe conversations — anytime, anywhere. Built for India and beyond, it offers a friendly, judgment-free space to talk to virtual personas like Chutki (the listener), Bhayya/Didi (mentor), or a flirty friend — in Hindi, English, and regional languages.
+
+---
+
+## 🧠 Why SunLe?
+
+Millions of people feel lonely but hesitate to talk to friends, family, or therapists — especially in Tier 2/3 cities in India where therapy is taboo.
+
+SunLe creates a no-pressure zone to:
+- Vent without judgment
+- Get career or life advice
+- Build confidence through playful flirting
+- Simply feel *heard*
+
+---
+
+## 🛠 Tech Stack
+
+| Layer         | Tech                          |
+|---------------|-------------------------------|
+| Frontend      | React / Next.js               |
+| Mobile        | React Native (or Expo)        |
+| Backend/Auth  | Supabase (PostgreSQL + Auth)  |
+| AI Engine     | OpenAI / Claude API (via proxy) |
+| Translation   | Indic NLP / Google Translate  |
+| Deployment    | Vercel / Firebase Hosting     |
+
+---
+
+## 🚀 Features
+
+- Phone + OTP login (no anonymous access)
+- WhatsApp-style chat UI
+- 3 AI personas with distinct tones
+- Hindi + English language toggle
+- 1000 messages/day free tier
+- Memory graph to personalize responses
+- Emotionally aware, culturally sensitive prompts
+
+---
+
+## 📱 Screenshots
+
+_Coming soon_
+
+---
+
+## 🔧 Local Setup
 
 ```bash
+# Clone the repo
+git clone https://github.com/shashank-padala/sunle.git
+cd sunle
+
+# Install dependencies
+npm install
+
+# Add your Supabase keys, OpenAI keys in .env.local
+cp .env.example .env.local
+
+# Run locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+````
+
+---
+
+## 📄 Project Structure
+
+```
+/components     → Reusable UI elements
+/pages          → Next.js routes
+/lib            → Supabase client, API helpers
+/public         → Static assets
+/styles         → Tailwind CSS
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
