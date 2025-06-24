@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SunLe – Just Say It",
-  description: "24x7 personal AI companion that listens, comforts, and never judges.",
+  title: "SunLe: Talk Freely. We Don’t Ghost.",
+  description: "Feeling bored or lonely? Come chat on the SunLe app — no drama, just good vibes. Slide in and say hi!",
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "SunLe – Just Say It",
-    description: "24x7 personal AI companion that listens, comforts, and never judges.",
-    url: "https://sunle.in", // update to your real domain
+    title: "SunLe: Talk Freely. We Don’t Ghost.",
+    description: "Feeling bored or lonely? Come chat on the SunLe app — no drama, just good vibes. Slide in and say hi!",
+    url: "https://www.sunle.xyz", 
     siteName: "SunLe",
     images: [
       {
@@ -36,10 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SunLe – Just Say It",
-    description: "24x7 personal AI companion that listens, comforts, and never judges.",
+    title: " SunLe: Talk Freely. We Don’t Ghost.",
+    description: "Feeling bored or lonely? Come chat on the SunLe app — no drama, just good vibes. Slide in and say hi!",
     images: ["/og-image.png"],
-    creator: "@yourhandle", // optional
   },
 };
 
